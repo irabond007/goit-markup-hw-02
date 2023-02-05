@@ -1,0 +1,214 @@
+:root {
+    --main-color-text: #434455;
+    --primary-brand: #4D5AE5;
+    --secondary-brand:#2E2F42;
+    --press-state: #404BBF;
+    --subtitel-text: #8E8F99;
+    --accent-color: #E7E9FC;
+    --background-color:E5E5E5
+    
+    --hero-text-color: #FFFFFF;
+
+    --secondary-background-color: #F4F4FD;
+    --hero-text-color: #FFFFFF;
+}
+
+
+body {
+    font-family: 'Roboto',sans-serif;
+    background-color: var(--background-color);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--main-color-text);
+    letter-spacing: 0.02em;
+}
+/* Header */
+
+/* Logo */
+
+.logo {
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        display: flex;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: var(--primary-brand);
+
+}
+.logo-secondary {
+    color: var(--secondary-brand);
+}
+.logo-footer {
+    color: var(--secondary-background-color);
+}
+
+/* Navigation */
+.list {
+    list-style: none;
+}
+
+.link {
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:  var(--secondary-brand);
+        text-decoration: none;
+
+}
+
+.link:hover,
+.link:focus {
+color: var(--press-state);
+}
+.link.current {
+    color: var(--press-state);
+
+}
+
+/* Address */
+.address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--main-color-text);
+}
+.address:hover,
+.address:focus {
+color: var(--press-state);
+}
+/* Hero */
+.hero {
+    background-color: var(--secondary-brand);
+}
+.hero .title{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color:var(--hero-text-color);
+}
+.hero .button{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--hero-text-color);
+    background-color: var(--primary-brand);
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4p;
+}
+.hero .button:hover,
+.hero .button:focus{
+    background-color: var(--press-state);
+}
+/* Hidden title */
+#hidden{
+    display: block;
+}
+.preference .title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-brand);
+}
+.preference .text{
+    line-height: 1.5;
+    color: var(--main-color-text);
+}
+.projects .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--secondary-brand);
+}
+/* Our Team */
+.team{
+    background-color: var(--secondary-background-color);
+}
+.team .title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    color: var(--secondary-brand);
+}
+.profile{
+    background-color: var(--hero-text-color);
+}
+.profile:hover,
+.profile:focus{
+/* svg file, social links will change color */
+
+}
+.profile .name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-brand);
+}
+.profile .position{
+    line-height: 1.5;
+    color: var(--main-color-text)
+}
+/* Footer */
+.footer{
+    background-color: var(--secondary-brand);
+}
+.footer .text{
+    line-height: 1.5;
+    color: var(--accent-color);
+
+}
+
+
+/* Portfolio */
+
+.list .button{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background: var(--secondary-background-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.list .button:hover,
+.list .button:focus{
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: var(--hero-text-color);
+    background: var(--press-state);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.card .title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--secondary-brand);
+}
+.card .text{
+    line-height: 1.5;
+    color: var(--main-color-text)
+}
+.card{
+    cursor: pointer;
+}
+.card:hover,
+.card:focus{
+    /* change img for background with text */
+}
